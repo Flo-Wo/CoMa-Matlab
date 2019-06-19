@@ -28,22 +28,22 @@ mesh(M,N,h);
 
 % Unterbild 4
 subplot(2,2,4);
-bar([2015, 2016, 2017, 2018],[185, 140, 165, 110]);
+barh([2015, 2016, 2017, 2018],[185, 140, 165, 110]);
 
 %% Aufgabe 20 %%
-% x = -1:0.01:1;
-% y = - 1/4.*(x+1).^2 .* (x-1).*(x-4);
-% 
-% plot(x,y, 'b', 'LineWidth',2.5);
-% patch(x,y,'y');
-% hold on;
-% x_2 = 1:0.01:4;
-% y_2 = - 1/4.*(x_2+1).^2 .* (x_2-1).*(x_2-4);
-% plot(x_2,y_2, 'b', 'LineWidth',2.5);
-% 
-% patch(x_2,y_2,'r');
-% PlotAxisAtOrigin(x,y) 
-% xlabel('x') 
-% ylabel('y') 
-% text(3.5, 7, 'f(x)');
-% %axis off;
+x = -1:0.01:1;
+y = - 1/4.*(x+1).^2 .* (x-1).*(x-4);
+
+plot(x,y, 'b', 'LineWidth',2.5);
+patch(x,y,'y');
+hold on;
+x_2 = 1:0.01:4;
+y_2 = - 1/4.*(x_2+1).^2 .* (x_2-1).*(x_2-4);
+plot(x_2,y_2, 'b', 'LineWidth',2.5);
+
+patch(x_2,y_2,'r');
+PlotAxisAtOrigin(x,y) 
+xlabel('x') 
+ylabel('y') 
+text(3.5, 7, 'f(x)');
+axis off;

@@ -1,0 +1,38 @@
+Gruppe: Florian Wolf, Julian Weigert
+Aufgabe 28 
+
+
+Studiengang BA Math:
+
+Maier Udo 546920 
+Streich Franz 455667 
+Fritz Frieder 444876 
+Schmaus Peter 502376 
+Bach Johanna 490012 
+Neuberg Michael 444004 
+Rupp Simone 456285 
+Ziller Maike 403403 
+
+
+Jahrgang 1994:
+
+Maier Udo BA Math 
+Bauer Anja BA Phys 
+Kerner Katharina BA Edu 
+Meyer Helene BA Phys 
+Schmaus Peter BA Math 
+Minor Maximilian BA MFÖ 
+Rupp Simone BA Math 
+Ziller Maike BA Math 
+
+
+Notenschnitt:
+
+Maier Udo 3.17
+Bauer Anja 1.57
+Kerner Katharina 2.00
+Meyer Helene 1.86
+Schmaus Peter 2.25
+Minor Maximilian 4.33
+Rupp Simone 2.60
+Ziller Maike 3.67
