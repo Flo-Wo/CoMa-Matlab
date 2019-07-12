@@ -5,6 +5,7 @@ clear all;
 close all;
 
 %% Aufgabe 28 %%
+%L = load('Math_Stud.mat', 'liste');
 L = load('Math_Stud.mat');
 datei28 = fopen("Aufgabe28.txt", "w");
 % header
@@ -70,11 +71,10 @@ for n = 1:length(L.liste)
     % calculate average
     schnitt = gesamt/anzahl;
     % print results
-    if(L.liste(n).geb.jahr == 1994)
-        fprintf(datei28, '%s', L.liste(n).name);
-        fprintf(datei28, ' %s', L.liste(n).vorname);
-        fprintf(datei28, ' %1.2f\n', schnitt);
-    end
+    fprintf(datei28, '%s', L.liste(n).name);
+    fprintf(datei28, ' %s', L.liste(n).vorname);
+    fprintf(datei28, ' %1.2f\n', schnitt);
+    
     
     % Sorry for this bad solution :)
 end

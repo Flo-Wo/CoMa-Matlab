@@ -5,7 +5,7 @@
 clear all;
 close all;
 
-% initialize f as a testing function
+% initialize f,g as testing functions
 syms x;
 f(x) = x.^4 - 2.*x.^3 + 4.*x.^2 -5.*x +7;
 g(x) = 8.*x.^10 + 7.*x.^5 + 2.*x.^4 + x.^3 -7.*x.^2 +1;
